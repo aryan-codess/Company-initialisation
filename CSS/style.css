@@ -1,0 +1,230 @@
+body {
+  color: #40514E;
+  margin: 0;
+  /***** Margin 0 (which will be applied on all side)*****/
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  margin: 10px auto 0 auto;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.6%;
+  /**Coverted pixel to % via coverter***/
+  font-style: italic;
+  color: #00A19D;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'montserrat', sans-serif;
+}
+
+h2 {
+  color: #11999E;
+}
+
+.profile {
+  margin-top: 100px;
+}
+
+.para {
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5rem;
+  display: inline-block;
+  font-weight: bolder;
+  margin: 0 auto 10 auto;
+  font-style: italic;
+}
+
+.name-head {
+  padding-top: 150px;
+}
+
+.cont1 {
+  background-color: #E4F9F5;
+}
+
+.bottom-cloud {
+  /******* The absolute position moves ACCORDING TO THE MOTHER LAYOUT HERE cont1 - colour IS THE motherlayout***/
+  position: absolute;
+  bottom: 300px;
+  left: 450px
+}
+
+.top-cloud {
+  position: absolute;
+  right: 380px;
+  top: 100px;
+}
+
+.profile2 {
+  height: 160px;
+  width: 160px;
+  padding-top: 30px;
+}
+
+.Hello {
+  color: #11999E;
+  font-weight: bolder;
+}
+
+.intro-para {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.Skills-img {
+  width: 25%;
+  text-align: left;
+  float: left;
+}
+
+.linkedin1 {
+  width: 20px;
+  height: 20;
+}
+
+.Skills-heading {
+  color: #11999E;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.getin {
+  color: black;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pskills {
+  padding-left: 230px;
+  line-height: 2;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin: 53px auto auto auto;
+}
+
+.hotpara {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: 2;
+}
+
+.chillies-img {
+  width: 20%;
+  float: right;
+  position: relative;
+  bottom: 20px;
+  left: 11px;
+}
+
+.h3skills {
+  padding-left: 230px;
+  position: relative;
+  top: 27px;
+}
+
+.hr1 {
+  margin-top: 50px;
+  width: 50px;
+  height: 0;
+  border-style: dotted;
+  color: #D7E9F7;
+  border-top: 0;
+  border-width: 9px;
+}
+
+.hothr {
+  width: 50px;
+  height: 0;
+  margin-bottom: 50px;
+  border-style: dotted;
+  color: #D7E9F7;
+  border-top: 0;
+  border-width: 9px;
+}
+
+.BUTTON_SVO {
+  padding: 7px 21px 7px 21px;
+  font-size: 22px;
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 100;
+  margin-bottom: 21px;
+  margin-top: 21px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_SVO:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #F8F0DF;
+
+height: 200px
+}
+
+
+.footer-link-twitter {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-link-instagram {
+  width: 23px;
+  height: 20px;
+  position: absolute;
+  left: 678px;
+}
+
+.socials {
+  padding-top: 50px;
+}
+
+.linkedin1 {
+  margin-bottom: 1px;
+  position: absolute;
+  left: 812px;
+}
+
+.rights {
+  padding-top: 55px;
+}
+
+.outro {
+  width: 432px;
+  margin: auto;
+}
